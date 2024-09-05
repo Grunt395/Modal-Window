@@ -4,3 +4,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(125, 213, 111);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.button {
+    color: rgb(68, 68, 68);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
