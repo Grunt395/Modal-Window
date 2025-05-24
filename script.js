@@ -21,3 +21,10 @@ for (let i = 0; i < modalOpenButton.length; i++) {
 
 modalCloseButton.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
+
+// Calls event function and passes object (e) as an argument
+document.addEventListener("keydown", function (e) {  
+    if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+        closeModal();
+    }
+});
